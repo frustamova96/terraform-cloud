@@ -1,5 +1,5 @@
 resource "aws_instance" "sensitive" {
-    ami = "ami-087c17d1fe0178315"
+    ami = "ami-00dfe2c7ce89a450b"
     instance_type = "t2.micro"
 
     tags = {
